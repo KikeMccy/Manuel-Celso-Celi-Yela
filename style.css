@@ -1,0 +1,134 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.header {
+    background-color: #004d40;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #00897b;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+}
+
+.contact-info span {
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.section {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #004d40;
+    border-bottom: 2px solid #00897b;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.job, .degree {
+    margin-bottom: 25px;
+}
+
+.job h3, .degree h3 {
+    margin: 0 0 5px;
+    color: #00695c;
+}
+
+.job .dates {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-list li {
+    background: #e0f2f1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #004d40;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.skills-list i {
+    margin-right: 8px;
+    color: #00695c;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d40;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+/* Diseño responsivo para dispositivos móviles */
+@media (max-width: 768px) {
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info span {
+        margin: 5px 0;
+    }
+}
